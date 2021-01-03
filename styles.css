@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'arab3end';
+    src: url('arab3end.ttf');
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
