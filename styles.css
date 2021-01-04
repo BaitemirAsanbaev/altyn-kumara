@@ -27,7 +27,7 @@ nav ul li a{
     font-weight: 300;
 }
 nav ul li{
-    margin: 0 100px;
+    margin: 0 50px;
 }
 nav ul{
     list-style-type: none;
@@ -37,10 +37,14 @@ nav ul{
 nav img{
     width: 50px;
 }
-nav{
-    background-color: #171717;
+.nav-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+nav{
+    background-color: #171717;
 }
