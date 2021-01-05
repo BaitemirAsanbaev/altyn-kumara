@@ -53,6 +53,9 @@ main section{
     max-width: 1300px;
     margin: 100px auto;
 }
+main section:last-of-type{
+    margin-top: 200px;
+}
 main section:first-of-type h1{
     font-size: 36px;
     font-weight: 600;
@@ -97,4 +100,32 @@ main section:first-of-type h1{
     font-size: 18px;
     font-weight: 600;
     line-height: 21.9px;
+}
+.quote-container{
+    max-width: 1300px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    padding: 50px;
+}
+.quote-title{
+    display: flex;
+    justify-content: center;
+}
+.quote-title h1{
+    color: #A70305;
+    font-family: 'arab3end';
+    font-size: 64px;
+    margin: 0px;
+}
+.quote-title img{
+    position: relative;
+    top: -25px;
+    margin: 0px 5px;
+}
+.quote-paragragh p{
+    text-align: center;
+    font-size: 24px;
+    max-width: 900px;
+    line-height: 38px;
+    margin: 24px auto;
 }
