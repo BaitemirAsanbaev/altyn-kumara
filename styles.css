@@ -48,3 +48,7 @@ nav img{
 nav{
     background-color: #171717;
 }
+main section{
+    max-width: 1300px;
+    margin: 0 auto;
+}
