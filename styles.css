@@ -51,7 +51,7 @@ nav{
 }
 main section{
     max-width: 1300px;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 main section:first-of-type h1{
     font-size: 36px;
