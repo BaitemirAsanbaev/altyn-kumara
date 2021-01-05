@@ -53,9 +53,11 @@ main section{
     max-width: 1300px;
     margin: 0 auto;
 }
-.h1{
+main section:first-of-type h1{
     font-size: 36px;
     font-weight: 600;
+    text-align: center;
+    margin: 0px 0px 120px 0px;
 }
 
 .main-top-container{
