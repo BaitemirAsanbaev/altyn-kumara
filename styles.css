@@ -13,7 +13,15 @@ body{
 .logo{
     position: absolute;
     top: 10px;
-    left: 10px;
+    left: 50px;
+}
+.kumara{
+    width: 35px;
+}
+.quote-kumara{
+    position: relative;
+    top: -20px;
+    margin: 0px 5px;
 }
 nav span{
     font-family: 'arab3end';
@@ -118,9 +126,7 @@ main section:first-of-type h1{
     margin: 0px;
 }
 .quote-title img{
-    position: relative;
-    top: -25px;
-    margin: 0px 5px;
+
 }
 .quote-paragragh p{
     text-align: center;
