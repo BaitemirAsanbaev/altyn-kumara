@@ -30,9 +30,13 @@ nav span{
 }
 nav ul li a{
     text-decoration: none;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 24px;
     font-weight: 300;
+    transition: color 1s;
+}
+nav ul li:hover>a{
+    color: #FFDC23;
 }
 nav ul li{
     margin: 0 50px;
@@ -42,7 +46,7 @@ nav ul{
     display: flex;
     justify-content: space-around;
 }
-nav img{
+.search{
     width: 50px;
 }
 .nav-container{
