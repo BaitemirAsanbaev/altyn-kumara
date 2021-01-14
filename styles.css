@@ -136,6 +136,10 @@ main section:first-of-type h1{
     margin: 24px auto;
 }
 #map{
-    width: 300px;
-    height: 100px;
+    width: 500px;
+    height: 300px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
 }
