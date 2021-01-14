@@ -160,3 +160,8 @@ footer section ul li{
     line-height: 2;
     font-size: 24px;
 }
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+}
