@@ -145,3 +145,12 @@ footer{
     background-color: #171717;
     color: #fff;
 }
+footer section ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+footer section ul li{
+    font-weight: 500;
+    line-height: 2;
+}
