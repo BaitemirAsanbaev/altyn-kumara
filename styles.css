@@ -145,6 +145,11 @@ footer{
     background-color: #171717;
     color: #fff;
 }
+footer section h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 10px 0px 50px 0px;
+}
 footer section ul{
     list-style-type: none;
     margin: 0px;
