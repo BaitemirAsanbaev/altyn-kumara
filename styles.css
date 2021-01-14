@@ -152,10 +152,11 @@ footer section h2{
 }
 footer section ul{
     list-style-type: none;
-    margin: 0px;
+    margin: 0px 0px 20px 0px;
     padding: 0px;
 }
 footer section ul li{
     font-weight: 500;
     line-height: 2;
+    font-size: 24px;
 }
