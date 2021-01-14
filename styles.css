@@ -11,9 +11,8 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .logo{
-    position: absolute;
-    top: 10px;
-    left: 50px;
+    position: relative;
+    left: -60px;
 }
 .kumara{
     width: 35px;
@@ -137,9 +136,6 @@ main section:first-of-type h1{
     height: 300px;
 }
 footer{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     background-color: #171717;
     color: #fff;
     padding: 20px;
@@ -163,4 +159,11 @@ footer section ul li{
     display: flex;
     justify-content: space-between;
     max-width: 300px;
+}
+.footer-container{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
