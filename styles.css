@@ -18,8 +18,8 @@ body{
 }
 .up-btn{
     position: fixed;
-    top: 600px;
-    left: 1400px;
+    bottom: 100px;
+    right: 100px;
     z-index: 2;
 }
 .kumara{
