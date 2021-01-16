@@ -10,12 +10,14 @@ body{
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
 }
-.logo{
-    position: relative;
-    left: -60px;
-}
 .kumara{
     width: 35px;
+    margin: 0 10px;
+    transform: translateY(-10px);
+}
+.logo{
+    display: flex;
+    align-items: center;
 }
 .quote-kumara{
     position: relative;
@@ -51,7 +53,7 @@ nav ul{
 }
 .nav-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px 0px;
     max-width: 1300px;
