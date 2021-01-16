@@ -18,6 +18,9 @@ body{
     margin: 0 10px;
     transform: translateY(-10px);
 }
+.menu-btn{
+    display: none;
+}
 .logo{
     display: flex;
     align-items: center;
@@ -165,7 +168,7 @@ main section:first-of-type h1{
 footer{
     background-color: #171717;
     color: #fff;
-    padding: 20px;
+    padding: 20px 50px;
 }
 footer section h2{
     font-size: 32px;
@@ -193,4 +196,12 @@ footer section ul li{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+@media screen and (max-width: 1100px){
+    nav ul{
+        display: none;
+    }
+    .menu-btn{
+        display: inline;
+    }
 }
