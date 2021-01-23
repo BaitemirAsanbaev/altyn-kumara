@@ -142,6 +142,9 @@ main section:first-of-type h1{
     font-weight: 600;
     line-height: 21.9px;
 }
+.quote-section{
+    padding: 0px 40px;
+}
 .quote-container{
     max-width: 1300px;
     margin: 0 auto;
@@ -213,5 +216,18 @@ footer section ul li{
     }
     .menu-btn{
         display: inline;
+    }
+}
+@media screen and (max-width: 700px){
+    .quote-paragragh p{
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+    }
+    .quote-title h1{
+        font-size: 52px;
+    }
+    .quote-kumara{
+        width: 30px;
     }
 }
